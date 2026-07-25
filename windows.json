@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "platform": "windows",
+  "channel": "stable",
+  "published": false,
+  "version": "",
+  "build": 0,
+  "tag": "",
+  "asset": "Petete-Radio-Windows-Setup.exe",
+  "sha256Asset": "Petete-Radio-Windows-Setup.exe.sha256",
+  "downloadUrl": "",
+  "sha256Url": "",
+  "releaseNotes": ""
+}
