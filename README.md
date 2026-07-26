@@ -2,17 +2,17 @@
 
 Repositorio oficial de distribuciÃ³n de Petete Radio para Android y Windows.
 
-## Reparar Petete Radio v1.22.18 c01
+## Reparar Petete Radio v1.22.18 c01, c02 o c03
 
-La compilaciÃ³n **c01** contiene un error en su actualizador y puede mostrar que
-el archivo **.partial** estÃ¡ siendo utilizado por otro proceso.
+Las compilaciones **c01-c03** pueden mostrar que el instalador temporal estÃ¡
+siendo utilizado por otro proceso y no completar la actualizaciÃ³n.
 
-**[REPARAR c01 â€” descargar el instalador oficial c03](https://github.com/NandyAstur/PeteteRadio/releases/download/v1.22.18-c03/Petete-Radio-Windows-Setup.exe)**
+**[REPARAR c01-c03 â€” descargar el instalador oficial c04](https://github.com/NandyAstur/PeteteRadio/releases/download/v1.22.18-c04/Petete-Radio-Windows-Setup.exe)**
 
 1. Cierra Petete Radio.
 2. Ejecuta el instalador descargado.
 3. No desinstales la aplicaciÃ³n: se conservarÃ¡n emisoras, favoritas y ajustes.
-4. Comprueba al abrir que aparece **v1.22.18 c03**.
+4. Comprueba al abrir que aparece **v1.22.18 c04**.
 
 El instalador pertenece a la Release oficial y Petete Radio verifica sus
 actualizaciones mediante SHA-256.
