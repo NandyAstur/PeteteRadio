@@ -1,14 +1,14 @@
 {
-  "schemaVersion": 1,
-  "platform": "windows",
-  "channel": "stable",
-  "published": false,
-  "version": "",
-  "build": 0,
-  "tag": "",
-  "asset": "Petete-Radio-Windows-Setup.exe",
-  "sha256Asset": "Petete-Radio-Windows-Setup.exe.sha256",
-  "downloadUrl": "",
-  "sha256Url": "",
-  "releaseNotes": ""
+    "schemaVersion":  1,
+    "platform":  "windows",
+    "channel":  "stable",
+    "published":  true,
+    "version":  "1.22.17",
+    "build":  2,
+    "tag":  "v1.22.17-c2",
+    "asset":  "Petete-Radio-Windows-Setup.exe",
+    "sha256Asset":  "Petete-Radio-Windows-Setup.exe.sha256",
+    "downloadUrl":  "https://github.com/NandyAstur/PeteteRadio/releases/download/v1.22.17-c2/Petete-Radio-Windows-Setup.exe",
+    "sha256Url":  "https://github.com/NandyAstur/PeteteRadio/releases/download/v1.22.17-c2/Petete-Radio-Windows-Setup.exe.sha256",
+    "releaseNotes":  "Petete Radio v1.22.17 c2 para Windows con verificacion SHA-256."
 }
