@@ -10,7 +10,7 @@
     "sha256Asset":  "Petete-Radio-Windows-Setup.exe.sha256",
     "downloadUrl":  "https://github.com/NandyAstur/PeteteRadio/releases/download/v1.22.18-c04/Petete-Radio-Windows-Setup.exe",
     "sha256Url":  "https://github.com/NandyAstur/PeteteRadio/releases/download/v1.22.18-c04/Petete-Radio-Windows-Setup.exe.sha256",
-    "releaseNotes":  "c04 corrige definitivamente el bloqueo del instalador temporal. Si c01, c02 o c03 no completan la actualizaciÃ³n automÃ¡tica, abre https://github.com/NandyAstur/PeteteRadio y elige REPARAR c01-c03. No desinstales: se conservan emisoras, favoritas y ajustes.",
+    "releaseNotes":  "Si tu actualizador muestra que el archivo .partial estÃ¡ siendo usado por otro proceso, pulsa NO, cierra Petete Radio y abre https://github.com/NandyAstur/PeteteRadio. Usa REPARAR ACTUALIZADOR para instalar c05 una sola vez sin desinstalar ni perder datos.",
     "updatePolicy":  "normal",
     "forceFromVersion":  "",
     "forceFromBuild":  null,
