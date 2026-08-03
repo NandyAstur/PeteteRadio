@@ -1,0 +1,55 @@
+name: Reparar metadatos Android c10
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/reparar-release-android-c10.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  repair-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Añadir versionCode completo y verificar archivos
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const tag = 'android-v0.7.7-code10';
+            const expectedVersionCode = '7007010';
+
+            const { data: release } = await github.rest.repos.getReleaseByTag({ owner, repo, tag });
+            const assetNames = new Set(release.assets.map(asset => asset.name));
+            for (const required of ['Petete-Radio-Android.apk', 'Petete-Radio-Android.apk.sha256']) {
+              if (!assetNames.has(required)) {
+                core.setFailed(`La release ${tag} no contiene ${required}`);
+                return;
+              }
+            }
+
+            const marker = `versionCode: ${expectedVersionCode}`;
+            let body = release.body || '';
+            body = body
+              .replace(/^versionCode\s*[:=]\s*\d+\s*$/gim, '')
+              .trim();
+            body = `${body}\n\nversionName: 0.7.7\n${marker}\nCódigo visible: 10`.trim();
+
+            await github.rest.repos.updateRelease({
+              owner,
+              repo,
+              release_id: release.id,
+              body,
+              draft: false,
+              prerelease: false
+            });
+
+            const { data: verified } = await github.rest.repos.getReleaseByTag({ owner, repo, tag });
+            if (!(verified.body || '').includes(marker)) {
+              core.setFailed('La release no conservó el versionCode completo.');
+              return;
+            }
+            core.info(`Release ${tag} reparada con ${marker}`);
