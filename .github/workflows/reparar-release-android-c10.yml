@@ -53,3 +53,5 @@ jobs:
               return;
             }
             core.info(`Release ${tag} reparada con ${marker}`);
+
+# Segunda confirmación del flujo para ejecutar la reparación con el workflow ya presente en main.
