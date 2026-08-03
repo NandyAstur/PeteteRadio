@@ -2,13 +2,14 @@
   "schemaVersion": 1,
   "platform": "android",
   "channel": "stable",
-  "published": false,
-  "versionName": "",
-  "versionCode": 0,
-  "tag": "",
+  "published": true,
+  "versionName": "0.7.7",
+  "versionCode": 7007010,
+  "visibleCode": 10,
+  "tag": "android-v0.7.7-code10",
   "asset": "Petete-Radio-Android.apk",
   "sha256Asset": "Petete-Radio-Android.apk.sha256",
-  "downloadUrl": "",
-  "sha256Url": "",
-  "releaseNotes": ""
+  "downloadUrl": "https://github.com/NandyAstur/PeteteRadio/releases/download/android-v0.7.7-code10/Petete-Radio-Android.apk",
+  "sha256Url": "https://github.com/NandyAstur/PeteteRadio/releases/download/android-v0.7.7-code10/Petete-Radio-Android.apk.sha256",
+  "releaseNotes": "Petete Radio Android 0.7.7 c10"
 }
