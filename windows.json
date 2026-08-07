@@ -11,8 +11,8 @@
     "downloadUrl":  "https://github.com/NandyAstur/PeteteRadio/releases/download/v0.22.21-c25/Petete-Radio-Windows-Setup.exe",
     "sha256Url":  "https://github.com/NandyAstur/PeteteRadio/releases/download/v0.22.21-c25/Petete-Radio-Windows-Setup.exe.sha256",
     "releaseNotes":  "Petete Radio Windows 0.22.21 c25. Instalador verificado desde el commit eac50d6821cfb232a30a9fe4acbe75754c0901a2.",
-    "updatePolicy":  "normal",
-    "forceFromVersion":  "",
-    "forceFromBuild":  null,
-    "forceReason":  ""
+    "updatePolicy":  "force",
+    "forceFromVersion":  "1.22.20",
+    "forceFromBuild":  8,
+    "forceReason":  "Lista de emisoras optimizada: reciclaje de filas, presentación compacta, estado de reproducción independiente y cálculo técnico sin efectos secundarios."
 }
