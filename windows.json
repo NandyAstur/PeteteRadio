@@ -11,8 +11,8 @@
     "downloadUrl":  "https://github.com/NandyAstur/PeteteRadio/releases/download/v0.22.21-c55/Petete-Radio-Windows-Setup.exe",
     "sha256Url":  "https://github.com/NandyAstur/PeteteRadio/releases/download/v0.22.21-c55/Petete-Radio-Windows-Setup.exe.sha256",
     "releaseNotes":  "Petete Radio Windows 0.22.21 c55. Instalador verificado desde el commit e2fdd76c36f11d84dabaf7033bef3755604f8f8d.",
-    "updatePolicy":  "normal",
-    "forceFromVersion":  "",
-    "forceFromBuild":  null,
-    "forceReason":  ""
+    "updatePolicy":  "force",
+    "forceFromVersion":  "1.22.20",
+    "forceFromBuild":  8,
+    "forceReason":  "Corrección de compilación del visualizador de entretenimiento c54: inicializador C54 accesible desde su bootstrap, manteniendo pecera animada, ecualizador real de 64 bandas, transporte robusto y ajuste de AHORA SUENA."
 }
