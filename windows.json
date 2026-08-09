@@ -11,8 +11,8 @@
     "downloadUrl":  "https://github.com/NandyAstur/PeteteRadio/releases/download/v0.22.21-c74/Petete-Radio-Windows-Setup.exe",
     "sha256Url":  "https://github.com/NandyAstur/PeteteRadio/releases/download/v0.22.21-c74/Petete-Radio-Windows-Setup.exe.sha256",
     "releaseNotes":  "Petete Radio Windows 0.22.21 c74. Instalador verificado desde el commit 8d1a21c52dc68811abcc711e55022cb5447709d3.",
-    "updatePolicy":  "normal",
-    "forceFromVersion":  "",
-    "forceFromBuild":  null,
-    "forceReason":  ""
+    "updatePolicy":  "force",
+    "forceFromVersion":  "1.22.20",
+    "forceFromBuild":  8,
+    "forceReason":  "CANDIDATA DE PRUEBA DE VINCULACIÓN PC-ANDROID: conserva el cierre visual estable de Windows y añade hub local persistente autenticado para detección posterior al QR, sincronización con catálogo PC autoritativo, favoritos por unión e historial Android acumulativo en PC."
 }
