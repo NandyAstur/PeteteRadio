@@ -11,8 +11,8 @@
     "downloadUrl":  "https://github.com/NandyAstur/PeteteRadio/releases/download/v0.22.21-c83/Petete-Radio-Windows-Setup.exe",
     "sha256Url":  "https://github.com/NandyAstur/PeteteRadio/releases/download/v0.22.21-c83/Petete-Radio-Windows-Setup.exe.sha256",
     "releaseNotes":  "Petete Radio Windows 0.22.21 c83. Instalador verificado desde el commit 8d3c75d77adf02a4f30de5f1b13ec0f9cc5b924b.",
-    "updatePolicy":  "normal",
-    "forceFromVersion":  "",
-    "forceFromBuild":  null,
-    "forceReason":  ""
+    "updatePolicy":  "force",
+    "forceFromVersion":  "1.22.20",
+    "forceFromBuild":  8,
+    "forceReason":  "CANDIDATA DE PRUEBA DE VINCULACIÓN PC-ANDROID: corrige contrato lastPlayedUtc Android vacío como fecha ausente; catálogo PC paginado; favoritos Android por delta; hub autenticado; QR único protocolo v3; catálogo PC autoritativo; favoritos por unión; historial Android acumulativo en PC."
 }
