@@ -11,8 +11,8 @@
     "downloadUrl":  "https://github.com/NandyAstur/PeteteRadio/releases/download/v0.22.21-c87/Petete-Radio-Windows-Setup.exe",
     "sha256Url":  "https://github.com/NandyAstur/PeteteRadio/releases/download/v0.22.21-c87/Petete-Radio-Windows-Setup.exe.sha256",
     "releaseNotes":  "Petete Radio Windows 0.22.21 c87. Instalador verificado desde el commit 4a6ecb782fbdff7176178f4be3bd628803f70859.",
-    "updatePolicy":  "normal",
-    "forceFromVersion":  "",
-    "forceFromBuild":  null,
-    "forceReason":  ""
+    "updatePolicy":  "force",
+    "forceFromVersion":  "1.22.20",
+    "forceFromBuild":  8,
+    "forceReason":  "CANDIDATA DE PRUEBA DE VINCULACIÓN PC-ANDROID: corrige el contrato JSON del catálogo excluyendo propiedades calculadas de interfaz que no pertenecen al protocolo y podían provocar HTTP 500 al serializar emisoras antiguas o inconsistentes; mantiene el blindaje del registro persistente, catálogo paginado, favoritos Android por delta, hub autenticado, QR único protocolo v3, catálogo PC autoritativo, favoritos por unión e historial Android acumulativo en PC."
 }
