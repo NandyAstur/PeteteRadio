@@ -4,14 +4,14 @@
     "channel":  "stable",
     "published":  true,
     "versionName":  "0.7.7",
-    "versionCode":  7007037,
-    "visibleCode":  37,
-    "tag":  "android-v0.7.7-code37",
+    "versionCode":  7007038,
+    "visibleCode":  38,
+    "tag":  "android-v0.7.7-code38",
     "asset":  "Petete-Radio-Android.apk",
     "sha256Asset":  "Petete-Radio-Android.apk.sha256",
-    "downloadUrl":  "https://github.com/NandyAstur/PeteteRadio/releases/download/android-v0.7.7-code37/Petete-Radio-Android.apk",
-    "sha256Url":  "https://github.com/NandyAstur/PeteteRadio/releases/download/android-v0.7.7-code37/Petete-Radio-Android.apk.sha256",
-    "sha256":  "da0a34d2c749bbb9354ab97b81c3aae8bad005ae710d20de0eeca29ee1f6a1cf",
-    "sourceCommit":  "cb42d6172f1bcaccfba96b99bfbfef0d60b51bd3",
-    "releaseNotes":  "Petete Radio Android 0.7.7 c37"
+    "downloadUrl":  "https://github.com/NandyAstur/PeteteRadio/releases/download/android-v0.7.7-code38/Petete-Radio-Android.apk",
+    "sha256Url":  "https://github.com/NandyAstur/PeteteRadio/releases/download/android-v0.7.7-code38/Petete-Radio-Android.apk.sha256",
+    "sha256":  "90bca941cec004130eab348129ce59deac394e380b6cf797499a6b369b3f118f",
+    "sourceCommit":  "683e5dd1ae63efc21d3dbea9cd7720797543870e",
+    "releaseNotes":  "Petete Radio Android 0.7.7 c38"
 }
