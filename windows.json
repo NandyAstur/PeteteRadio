@@ -11,8 +11,8 @@
     "downloadUrl":  "https://github.com/NandyAstur/PeteteRadio/releases/download/v0.22.22-c18/Petete-Radio-Windows-Setup.exe",
     "sha256Url":  "https://github.com/NandyAstur/PeteteRadio/releases/download/v0.22.22-c18/Petete-Radio-Windows-Setup.exe.sha256",
     "releaseNotes":  "Petete Radio Windows 0.22.22 c18. Instalador verificado desde el commit 32257be88bcbab87a0343f4c8776a99978edcc1b.",
-    "updatePolicy":  "normal",
-    "forceFromVersion":  "",
-    "forceFromBuild":  null,
-    "forceReason":  ""
+    "updatePolicy":  "force",
+    "forceFromVersion":  "1.22.20",
+    "forceFromBuild":  8,
+    "forceReason":  "CANDIDATA C95: presencia y telemetría PC-Android, histórico completo visible y copias automáticas recuperables al cerrar."
 }
