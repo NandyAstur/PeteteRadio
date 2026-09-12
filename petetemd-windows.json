@@ -5,6 +5,7 @@
   "channel": "stable",
   "published": false,
   "version": "1.0.1",
+  "repository": "NandyAstur/PeteteMD",
   "tag": "v1.0.1",
   "asset": "PeteteMD-1.0.1-win-x64.zip",
   "downloadUrl": "",
