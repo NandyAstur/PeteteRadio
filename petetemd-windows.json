@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "app": "PeteteMD",
+  "platform": "windows",
+  "channel": "stable",
+  "published": false,
+  "version": "1.0.1",
+  "tag": "v1.0.1",
+  "asset": "PeteteMD-1.0.1-win-x64.zip",
+  "downloadUrl": "",
+  "sha256": "",
+  "updatePolicy": "automatic"
+}
