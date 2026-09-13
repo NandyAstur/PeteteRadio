@@ -1,14 +1,14 @@
 {
-  "schemaVersion": 1,
-  "app": "PeteteMD",
-  "platform": "windows",
-  "channel": "stable",
-  "published": false,
-  "version": "1.0.1",
-  "repository": "NandyAstur/PeteteMD",
-  "tag": "v1.0.1",
-  "asset": "PeteteMD-1.0.1-win-x64.zip",
-  "downloadUrl": "",
-  "sha256": "",
-  "updatePolicy": "automatic"
+    "schemaVersion":  1,
+    "app":  "PeteteMD",
+    "platform":  "windows",
+    "channel":  "stable",
+    "published":  true,
+    "version":  "1.0.2",
+    "repository":  "NandyAstur/PeteteMD",
+    "tag":  "v1.0.2",
+    "asset":  "PeteteMD-1.0.2-win-x64.zip",
+    "downloadUrl":  "https://github.com/NandyAstur/PeteteMD/releases/download/v1.0.2/PeteteMD-1.0.2-win-x64.zip",
+    "sha256":  "7112869F2BACE4B4110C46321CBDA927C954B93CB4D9CA12861DE51184A7A557",
+    "updatePolicy":  "automatic"
 }
